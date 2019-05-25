@@ -1,4 +1,4 @@
-# Gracefully
+# Gracefully [![Build Status](https://travis-ci.com/exfly/gracefully.svg?branch=master)](https://travis-ci.com/exfly/gracefully)
 
 go app gracefully shutdown utils. This project is split from k8s, I want to do some progress here.
 
