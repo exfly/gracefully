@@ -1,0 +1,28 @@
+language: go
+
+go:
+  - "1.10"
+  - "1.11"
+  - "1.12"
+  - master
+
+go_import_path: github.com/exfly/gracefully
+
+env:
+  - GO111MODULE=on GOPROXY=https://goproxy.io
+
+os:
+  - linux
+  - osx
+  - windows
+
+matrix:
+  allow_failures:
+    - go: master
+  fast_finish: true
+
+install:
+  - go get ./...
+
+script:
+  - go vet ./...
