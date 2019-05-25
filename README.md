@@ -1,4 +1,4 @@
-# Gracefully [![Build Status](https://travis-ci.com/exfly/gracefully.svg?branch=master)](https://travis-ci.com/exfly/gracefully)
+# Gracefully [![Build Status](https://travis-ci.com/exfly/gracefully.svg?branch=master)](https://travis-ci.com/exfly/gracefully) [![GoDoc](https://godoc.org/github.com/exfly/gracefully?status.svg)](https://godoc.org/github.com/exfly/gracefully)
 
 go app gracefully shutdown utils. This project is split from k8s, I want to do some progress here.
 

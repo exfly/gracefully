@@ -1,15 +1,13 @@
-package main
+package gracefully
 
 import (
 	"log"
 	"testing"
 	"time"
-
-	"github.com/exfly/gracefully"
 )
 
 func TestGracefullExample(t *testing.T) {
-	var stopCh = gracefully.SetupSignalHandler()
+	var stopCh = SetupSignalHandler()
 	go func() {
 		for {
 			log.Println("alive...")
